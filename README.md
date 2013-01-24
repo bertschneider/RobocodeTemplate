@@ -24,7 +24,7 @@ Battle preparations or how to start a war
 1. Make sure the robots are _deployed_ into your Robocode robots folder<br>
    If you use a network fileshare to exchange the robots you could create a link to that folder
 2. Copy `misc/battles.battle` into your Robocode battles folder
-3. Add the calssnames of the participating robots to the `selectedRobots` property in the battle file
+3. Add the classnames of the participating robots to the `selectedRobots` property in the battle file
 4. Run the following command in your Robocode folder
    `java -Xmx1024M -cp libs/robocode.jar robocode.Robocode -battle battles\battles.battle -results results.txt`
 5. Watch the fight!
